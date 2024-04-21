@@ -1,0 +1,22 @@
+[package]
+name = "os-lab-4"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "secret"
+path = "src/secret.rs"
+
+[[bin]]
+name = "mem"
+path = "src/mem.rs"
+
+
+[[bin]]
+name = "hook"
+path = "src/hook.rs"
